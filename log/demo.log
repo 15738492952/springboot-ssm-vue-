@@ -1,0 +1,11 @@
+2018-12-28 12:09:16,729 INFO (StartupInfoLogger.java:57)- Started App in 10.146 seconds (JVM running for 10.523)
+2018-12-28 12:09:20,695 INFO (AopLogger.java:37)- ===============请求内容===============
+2018-12-28 12:09:20,696 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toTH
+2018-12-28 12:09:20,696 INFO (AopLogger.java:39)- 请求方式:GET
+2018-12-28 12:09:20,698 INFO (AopLogger.java:40)- 请求类方法:String com.aaa.controller.JumpController.toTH(Model)
+2018-12-28 12:09:20,699 INFO (AopLogger.java:41)- 请求类方法参数:[{}]
+2018-12-28 12:09:20,699 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 12:09:20,708 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 12:09:20,709 INFO (AopLogger.java:49)- Response内容:th
+2018-12-28 12:09:20,709 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 12:09:20,710 INFO (AopLogger.java:51)- 请求处理时间为:15

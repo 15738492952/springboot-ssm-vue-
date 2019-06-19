@@ -1,0 +1,11 @@
+2018-12-28 11:58:48,573 INFO (StartupInfoLogger.java:57)- Started App in 9.52 seconds (JVM running for 10.012)
+2018-12-28 11:59:44,527 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 5872 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 11:59:44,532 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 11:59:44,532 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default
+2018-12-28 11:59:53,157 INFO (StartupInfoLogger.java:57)- Started App in 9.604 seconds (JVM running for 9.988)
+2018-12-28 12:03:11,657 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 5316 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 12:03:11,662 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 12:03:11,663 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default
+2018-12-28 12:03:38,078 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 5912 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 12:03:38,082 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 12:03:38,083 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default

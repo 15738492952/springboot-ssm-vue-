@@ -1,0 +1,13 @@
+2018-12-28 10:34:25,540 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 4188 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 10:34:25,544 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 10:34:25,564 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default
+2018-12-28 10:34:31,790 INFO (StartupInfoLogger.java:57)- Started App in 7.162 seconds (JVM running for 7.518)
+2018-12-28 10:34:57,070 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id from login where username=? and password=? 
+2018-12-28 10:34:57,104 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String), 123(String)
+2018-12-28 10:34:57,129 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 10:34:57,131 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from employee where loginID = ? 
+2018-12-28 10:34:57,133 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-12-28 10:34:57,136 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 10:42:56,810 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 4764 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 10:42:56,875 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 10:42:56,875 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default

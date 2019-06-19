@@ -1,0 +1,104 @@
+<!DOCTYPE HTML >
+<html>
+
+	<head>
+
+		<title>登陆界面</title>
+		<meta charset="UTF-8" >
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<!-- 引入样式 -->
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+		<!-- 引入组件库 -->
+		<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<style>
+			#app {
+				width: 500px;
+				margin: 100px auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="app">
+			<el-form :model="loginInfo" :rules="rules" ref="loginForm" status-icon label-width="100px" class="demo-ruleForm">
+				<el-form-item label="用户名" prop="username">
+					<el-input v-model="loginInfo.username" type="text" autocomplete="off"></el-input>
+				</el-form-item>
+				<el-form-item label="密码" prop="password">
+					<el-input v-model="loginInfo.password" type="password" autocomplete="off"></el-input>
+				</el-form-item>
+
+				<el-form-item>
+					<el-button type="primary" @click="submit">提交</el-button>
+					<el-button>重置</el-button>
+				</el-form-item>
+			</el-form>
+		</div>
+		<script type="text/javascript">
+			var app = new Vue({
+				el: "#app",
+				data: {
+					loginInfo: {},
+					rules: {
+						username: [{
+								required: true,
+								message: '请输入用户名',
+								trigger: 'blur'
+							},
+							{
+								min: 3,
+								max: 15,
+								message: '长度在 3 到 15 个字符',
+								trigger: 'blur'
+							}
+						],
+						password: [{
+								required: true,
+								message: '请输入密码',
+								trigger: 'blur'
+							},
+							{
+								min: 3,
+								max: 15,
+								message: '密码长度在 3 到 15 个字符',
+								trigger: 'blur'
+							}
+						]
+					}
+				},
+				methods: {
+					submit: function() {
+						this.$refs["loginForm"].validate(function(valid) {
+							if(valid) {
+								axios.post('/ssm/emp/login', app.loginInfo)
+									.then(function(response) {
+										// 返回的json数据  response.data
+										if(response.data.code == 200) {
+											//跳转
+											window.location.href = "/ssm/toHome";
+										} else if(response.data.code == 300) {
+											app.$notify({
+												title: '账户冻结',
+												message: response.data.msg,
+												type: 'warning'
+											});
+
+										} else {
+											app.$notify.error({
+												title: '登录失败',
+												message: response.data.msg
+											});
+
+										}
+								});
+							}
+						});
+					}
+				}
+			});
+		</script>
+
+	</body>
+
+</html>

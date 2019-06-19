@@ -1,0 +1,12 @@
+2018-12-28 11:16:52,573 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toHome
+2018-12-28 11:16:52,587 INFO (AopLogger.java:39)- 请求方式:GET
+2018-12-28 11:16:52,590 INFO (AopLogger.java:40)- 请求类方法:String com.aaa.controller.JumpController.toHome()
+2018-12-28 11:16:52,590 INFO (AopLogger.java:41)- 请求类方法参数:[]
+2018-12-28 11:16:52,590 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 11:16:52,591 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 11:16:52,591 INFO (AopLogger.java:49)- Response内容:home
+2018-12-28 11:16:52,591 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 11:16:52,592 INFO (AopLogger.java:51)- 请求处理时间为:20
+2018-12-28 11:16:54,620 INFO (AopLogger.java:37)- ===============请求内容===============
+2018-12-28 11:16:54,622 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toHome
+2018-12-28 11:16:54,624 INFO (AopLogger.java:39)- 请求方式:GET

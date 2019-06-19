@@ -1,0 +1,14 @@
+2018-12-28 12:03:46,595 INFO (StartupInfoLogger.java:57)- Started App in 9.394 seconds (JVM running for 9.782)
+2018-12-28 12:03:59,562 INFO (AopLogger.java:37)- ===============请求内容===============
+2018-12-28 12:03:59,562 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toTH
+2018-12-28 12:03:59,563 INFO (AopLogger.java:39)- 请求方式:GET
+2018-12-28 12:03:59,566 INFO (AopLogger.java:40)- 请求类方法:String com.aaa.controller.JumpController.toTH()
+2018-12-28 12:03:59,566 INFO (AopLogger.java:41)- 请求类方法参数:[]
+2018-12-28 12:03:59,567 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 12:03:59,581 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 12:03:59,585 INFO (AopLogger.java:49)- Response内容:th
+2018-12-28 12:03:59,586 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 12:03:59,586 INFO (AopLogger.java:51)- 请求处理时间为:24
+2018-12-28 12:06:18,473 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 4520 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 12:06:18,477 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 12:06:18,478 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default

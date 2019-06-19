@@ -1,0 +1,18 @@
+2018-12-28 11:27:59,328 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 11:27:59,342 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 11:27:59,343 INFO (AopLogger.java:49)- Response内容:Result(code=200, msg=登陆成功)
+2018-12-28 11:27:59,343 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 11:27:59,343 INFO (AopLogger.java:51)- 请求处理时间为:378
+2018-12-28 11:27:59,422 INFO (AopLogger.java:37)- ===============请求内容===============
+2018-12-28 11:27:59,423 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toHome
+2018-12-28 11:27:59,423 INFO (AopLogger.java:39)- 请求方式:GET
+2018-12-28 11:27:59,423 INFO (AopLogger.java:40)- 请求类方法:String com.aaa.controller.JumpController.toHome()
+2018-12-28 11:27:59,425 INFO (AopLogger.java:41)- 请求类方法参数:[]
+2018-12-28 11:27:59,425 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 11:27:59,432 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 11:27:59,432 INFO (AopLogger.java:49)- Response内容:home
+2018-12-28 11:27:59,432 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 11:27:59,433 INFO (AopLogger.java:51)- 请求处理时间为:11
+2018-12-28 11:58:39,980 INFO (StartupInfoLogger.java:48)- Starting App on WIN-IB6R41VS0KQ with PID 5980 (E:\javaWork\springboot-ssm\target\classes started by Administrator in E:\javaWork\springboot-ssm)
+2018-12-28 11:58:39,985 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2018-12-28 11:58:39,985 INFO (SpringApplication.java:661)- No active profile set, falling back to default profiles: default

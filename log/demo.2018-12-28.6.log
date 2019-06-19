@@ -1,0 +1,21 @@
+2018-12-28 11:17:01,647 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 11:17:01,961 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id from login where username=? and password=? 
+2018-12-28 11:17:02,009 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String), 123(String)
+2018-12-28 11:17:02,049 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 11:17:02,050 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from employee where loginID = ? 
+2018-12-28 11:17:02,052 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-12-28 11:17:02,056 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-28 11:17:02,066 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 11:17:02,067 INFO (AopLogger.java:49)- Response内容:Result(code=200, msg=登陆成功)
+2018-12-28 11:17:02,067 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 11:17:02,068 INFO (AopLogger.java:51)- 请求处理时间为:423
+2018-12-28 11:17:02,106 INFO (AopLogger.java:37)- ===============请求内容===============
+2018-12-28 11:17:02,106 INFO (AopLogger.java:38)- 请求地址:http://localhost:8080/ssm/toHome
+2018-12-28 11:17:02,107 INFO (AopLogger.java:39)- 请求方式:GET
+2018-12-28 11:17:02,107 INFO (AopLogger.java:40)- 请求类方法:String com.aaa.controller.JumpController.toHome()
+2018-12-28 11:17:02,107 INFO (AopLogger.java:41)- 请求类方法参数:[]
+2018-12-28 11:17:02,108 INFO (AopLogger.java:42)- ===============请求内容===============
+2018-12-28 11:17:02,109 INFO (AopLogger.java:48)- --------------返回内容----------------
+2018-12-28 11:17:02,110 INFO (AopLogger.java:49)- Response内容:home
+2018-12-28 11:17:02,110 INFO (AopLogger.java:50)- --------------返回内容----------------
+2018-12-28 11:17:02,110 INFO (AopLogger.java:51)- 请求处理时间为:4
